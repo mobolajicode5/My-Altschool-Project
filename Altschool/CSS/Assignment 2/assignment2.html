@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment two Product Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #B2A7D1;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            width: 320px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #F8E08E;
+            padding: 5px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .image-container {
+            background: #ECECEC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .series {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #444;
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="badge">New and Improved!</div>
+        <div class="image-container">
+            <img src="watch-image.jpg" alt="Novus Watch">
+        </div>
+        <div class="content">
+            <div class="title">Novus Watch <span class="series">Series IV</span></div>
+            <p class="description">
+                The pinnacle of fashion and tech. This wearable piece is an homage to gilded palaces and minimal regalia, 
+                combining nouveau-deco and brutalism influences in a compact, Swiss-made watch.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

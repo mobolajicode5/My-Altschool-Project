@@ -1,0 +1,50 @@
+.subtext{
+    background-color: yellow;
+    position: absolute;
+    top: 45px;
+    left: 140px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 5px 20px 20px 5px;
+}
+
+.card{
+    position: relative;
+    width: 25rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+
+.main-body {
+    position: absolute;
+    background-color: #c4b4d0;
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: solid grey 10px;
+}
+
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+
+.card-title span {
+    color: #555555;
+    font-size: medium;
+}
+
+.card-text {
+    line-height: 1.3rem;
+    padding-top: 10px;
+    font-weight: 500;
+}

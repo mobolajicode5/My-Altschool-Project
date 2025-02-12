@@ -1,0 +1,57 @@
+css
+
+
+/* set the background*/
+
+body {
+
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+/*Otter*/
+
+.card {
+
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+/*over lapping heading*/
+
+.card h2{
+
+    background: #ff1493;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 16px;
+    position: absolute;
+    top: -18px;
+    left: 10px;
+    border: 15%;
+
+}
+
+
+/* paragraph text*/
+
+.card p {
+    font-size: 20px;
+    color: #333;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-family: sans-serif inter;
+    font-weight: bold;
+}
+

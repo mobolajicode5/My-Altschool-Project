@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="table.html">Courses</a> |
+        <a href="media.html">Media</a>
+    </nav>
+    <h2>My Journey in Tech</h2>
+    <p>Hello, my name is Mobolaji Victor Olalekan. I'm passionate about leveraging technology to drive innovation and growth.</p>
+
+    <h3>Responsive Image Showcase</h3>
+    <picture>
+        <source srcset="laptop.jpg" media="(min-width: 1024px)">
+        <source srcset="tablet.jpg" media="(min-width: 768px)">
+        <source srcset="mobile.jpg" media="(max-width: 767px)">
+        <img src="default.jpg" alt="Responsive image showcasing my tech journey">
+    </picture>
+
+    <h3>Video About My Work</h3>
+    <video controls width="500">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3>Audio Message</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Embedded Content</h3>
+    <iframe src="https://www.altschoolafrica.com" width="600" height="400" title="AltSchool Africa"></iframe>
+</body>
+</html>

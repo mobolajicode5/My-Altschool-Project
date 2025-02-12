@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --projectwidth: 1440px;
+    --contentwidth: 892px;
+    --navcolor: #1d2c3c;
+    --inputbgcolor: #edeff2;
+    --inputph: #646e7a;
+    --buyPusherbg: #64647a;
+    --freelancerbg: #1179bf;
+    --freelancerwidth: 312px;
+}
+
+html {
+    font-size: 16px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+    width: var(--projectwidth);
+    gap: ;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 80%;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--headerbb);
+
+}
+
+.header  nav ul li{
+    display: inline;
+    margin-inline: 10px;
+
+}
+.header nav ul li a:link,
+header nav ul li a:visited {
+    text-decoration: none;
+    color: var(--navcolor);
+    font-weight: 700;
+    font-size: .88rem;
+
+}
+
+.header nav ul li a:hover{
+    color: var(--freelancerbg);
+}
+
+.header nav ul li a:last-child{
+    border: 1px solid var(--navcolor);
+    padding: .4rem .8rem;
+    border-radius: 8px;
+}
+
+.main {
+    width: var(--contentwidth);
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr var(--freelancerwidth);
+    height: 700px;
+}
+
+.main .main--con-1{
+
+}
+
+.main .main--con--2{
+    background-color: var(--freelancerbg);
+
+}
